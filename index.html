@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
@@ -10,38 +13,37 @@
     <body>
         <header>
             <a href="index.html">
-                <img src="img/logo.svg" alt="PetLife" title="PetLife">
+                <img src="img/logo-white.svg" alt="PetLife" title="PetLife">
             </a>
             <nav>
                 <a href="#inicio" title="Início">Início</a>
                 <a href="#clinica" title="Clinica">Clinica</a>
                 <a href="#farmacia" title="Farmácia">Farmácia</a>
                 <a href="#duvidas" title="Dúvidas">Dúvidas</a>
+                <a href="#contato" title="Contato">Contato</a>
             </nav>
         </header>
         <main>
             <section id="inicio">
-                <img src="img/start-img.svg" height="580" width="580" alt="Imagem de uma mulher com um cachorro" title="Imagem de uma mulher com um cachorro">
+                <img src="img/start-img.svg" height="580" width="580" alt="Imagem de uma mulher sentada no chão cumprimentando um cachorro" title="Imagem de uma mulher sentada no chão cumprimentando um cachorro">
                 <div>
                     <h1>Garanta uma vida longa e cheia de alegria para o seu amigo</h1>
-                    <p>A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados e
+                    <p class="paragrafo">A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados e
                         serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar, a saúde e
-                        a
-                        felicidade dos seus animais de estimação.
+                        a felicidade dos seus animais de estimação.
                     </p>
-                    <a href="https://wa.me/5511912345678" target="_blank">Agende uma consulta</a>
-                    <a href="#clinica">Conheça nossa clínica</a>
+                    <a href="https://wa.me/5511912345678" id="botao" target="_blank" title="Agende uma consulta">Agende uma consulta</a>
+                    <a href="#clinica" id="botao-transparente" title="Conheça nossa clínica">Conheça nossa clínica</a>
                 </div>
+                <img src="img/shape.svg" id="absolute">
             </section>
             <section id="clinica">
                 <div>
                     <h2>Cuidado Veterinário de Qualidade</h2>
-                    <p>Nossa clínica veterinária é o local onde a paixão pelos animais se une à excelência em cuidados veterinários.
-                        Sob a liderança da Dra. Vivien Reid, uma profissional altamente qualificada e comprometida, oferecemos
-                        serviços
+                    <p class="paragrafo">Nossa clínica veterinária é o local onde a paixão pelos animais se une à excelência em cuidados veterinários.
+                        Sob a liderança da Dra. Vivien Reid, uma profissional altamente qualificada e comprometida, oferecemos serviços
                         de saúde e bem-estar para animais de estimação de todas as espécies. Venha conhecer nossa clínica e desfrute
-                        da
-                        atenção personalizada e do carinho que seu pet merece.
+                        da atenção personalizada e do carinho que seu pet merece.
                     </p>
                     <ul>
                         <li>Consultas de rotina e exames de saúde abrangentes</li>
@@ -58,7 +60,7 @@
             <section id="farmacia">
                 <h2>Venha conferir o nosso petshop e farmácia</h2>
                 <img src="img/shop-img.svg" height="430" width="645" alt="Imagem de uma mulher com jaleco atrás de um balcão segurando alguns frascos de remédios" title="Imagem de uma mulher com jaleco atrás de um balcão segurando alguns frascos de remédios">
-                <p>Além de ser uma clínica veterinária de confiança, também contamos com um completo petshop e farmácia. Nosso
+                <p class="paragrafo">Além de ser uma clínica veterinária de confiança, também contamos com um completo petshop e farmácia. Nosso
                     petshop oferece uma ampla seleção de produtos de alta qualidade, desde alimentos balanceados e petiscos
                     deliciosos até brinquedos divertidos e acessórios elegantes para o seu pet. Na nossa farmácia, você encontrará
                     uma variedade de medicamentos, produtos de cuidados e suplementos recomendados pelos nossos veterinários,
@@ -70,39 +72,38 @@
                 <img src="img/faq-img.svg" height="540" width="540" alt="Imagem de um homem em pé atrás de uma mesa apontando para a tela de um computador portátil ao lado de uma mulher que está sentada digitando no mesmo computador" title="Imagem de um homem em pé atrás de uma mesa apontando para a tela de um computador portátil ao lado de uma mulher que está sentada digitando no mesmo computador">
                 <div>
                     <h2>Ficou alguma dúvida?</h2>
-                    <div>
+                    <div class="duvida">
                         <h3>Quais serviços são oferecidos pela clínica da PetLife?</h3>
                         <img src="img/arrow-down.svg">
-                        <p>
-                            A clínica da PetLife oferece uma ampla gama de serviços, incluindo consultas de rotina, vacinação,
-                            cirurgias,
+                        <p class="paragrafo">
+                            A clínica da PetLife oferece uma ampla gama de serviços, incluindo consultas de rotina, vacinação, cirurgias,
                             tratamento de doenças, cuidados odontológicos, atendimento de emergência 24 horas, programas de prevenção de
                             pulgas, carrapatos e vermes, entre outros. Nosso objetivo é fornecer cuidados abrangentes e personalizados
                             para garantir a saúde e o bem-estar do seu pet.
                         </p>
                     </div>
-                    <div>
+                    <div class="duvida">
                         <h3>Quais espécies de animais a clínica veterinária atende?</h3>
                         <img src="img/arrow-down.svg">
-                        <p>
+                        <p class="paragrafo">
                             A clínica veterinária da PetLife atende animais de estimação de todas as espécies, incluindo cães, gatos,
                             pássaros, roedores e répteis. Nossos profissionais possuem conhecimento e experiência para cuidar de
                             diferentes tipos de animais, oferecendo um atendimento especializado e dedicado a cada um deles.
                         </p>
                     </div>
-                    <div>
+                    <div class="duvida">
                         <h3>A clínica da PetLife possui serviços de emergência?</h3>
                         <img src="img/arrow-down.svg">
-                        <p>
+                        <p class="paragrafo">
                           Sim, a clínica veterinária da PetLife oferece serviços de emergência 24 horas. Se o seu animal de estimação
                           precisar de atendimento veterinário imediato fora do horário de expediente, nossa equipe está pronta para
                           ajudar, fornecendo cuidados urgentes e tratamento adequado para garantir o bem-estar do seu pet.
                         </p>
                     </div>
-                    <div>
+                    <div class="duvida">
                         <h3>A clínica oferece serviços de banho e tosa?</h3>
                         <img src="img/arrow-down.svg">
-                        <p>
+                        <p class="paragrafo">
                             Sim, a clínica veterinária da PetLife oferece serviços profissionais de banho e tosa. Nossa equipe de
                             profissionais experientes garante que seu pet receba cuidados adequados, usando produtos de alta qualidade e
                             técnicas seguras. O banho e tosa ajudam a manter a higiene, a saúde da pele e pelagem do seu pet, além de
@@ -112,13 +113,13 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer id="contato">
             <div>
                 <img src="img/logo.svg" alt="PetLife">
                 <p>Cuidando com amor, vivendo com alegria: PetLife, onde a vida dos pets é mais feliz!</p>
             </div>
             <div>
-                <strong>Links rápidos</strong>
+                <strong class="titulo">Links rápidos</strong>
                 <nav>
                     <a href="#inicio" title="Início">Início</a>
                     <a href="#clinica" title="Clinica">Clinica</a>
@@ -127,14 +128,14 @@
                 </nav>
             </div>
             <div>
-                <strong>Encontre-nos</strong>
-                <p>WhatsApp: <a href="https://wa.me/5511912345678" target="_blank">+55 (11) 91234-5678</a></p>
-                <p>E-mail: <a href="mailto:contato@petlife.com">contato@petlife.com</a></p>
+                <strong class="titulo">Encontre-nos</strong>
+                <p>WhatsApp: <a href="https://wa.me/5511912345678" target="_blank" title="WhatsApp">+55 (11) 91234-5678</a></p>
+                <p>E-mail: <a href="mailto:contato@petlife.com" title="E-mail">contato@petlife.com</a></p>
                 <p>Endereço: Av. Paulista, nº 9999, São Paulo</p>
             </div>
         </footer>
-        <div>
-            Desenvolvido por <a href="https://www.linkedin.com/in/juliano-goncalves-developer/" target="_blank">Juliano Gonçalves</a>            
+        <div id="copyright">
+            Desenvolvido por <a href="https://www.linkedin.com/in/juliano-goncalves-developer/" target="_blank" title="Juliano Gonçalves">Juliano Gonçalves</a>            
         </div>
     </body>
 </html>
